@@ -1,4 +1,4 @@
-# Object-Oriented Counting Sentences Lab
+# Counting Sentences Lab
 
 ## Learning Goals
 
