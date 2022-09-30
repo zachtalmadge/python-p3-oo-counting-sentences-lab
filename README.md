@@ -115,7 +115,7 @@ What would happen if we split this sentence on the punctuation characters? We
 would end up with a list that contains empty strings as well as strings
 containing sentences. How would you eliminate empty strings from a list?
 
-## Reesources
+## Resources
 
 - [String `replace()` method][replace]
 - [String `split()` method][split]
