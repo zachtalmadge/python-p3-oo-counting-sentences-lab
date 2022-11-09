@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from lib.count_sentences import MyString
+from count_sentences import MyString
 
 import io
 import sys
