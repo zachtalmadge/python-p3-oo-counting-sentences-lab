@@ -52,6 +52,8 @@ methods ourselves. As long as the value of an instance of our `MyString` class
 is a string, we could not only call any methods we create ourselves on the
 instance, but also call any of the built in string methods on its value!
 
+***
+
 ## Instructions
 
 For this lab, you will be creating the `MyString` class and several methods on
@@ -114,6 +116,8 @@ This, well, is a sentence. This is too!! And so is this, I think? Woo...
 What would happen if we split this sentence on the punctuation characters? We
 would end up with a list that contains empty strings as well as strings
 containing sentences. How would you eliminate empty strings from a list?
+
+***
 
 ## Resources
 
