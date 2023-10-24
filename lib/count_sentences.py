@@ -26,8 +26,11 @@ class MyString:
         return self.value.endswith('!')
       
     def count_sentences(self):
-        # Splitting the string at '.', '!', and '?'
-        sentences = [sentence for sentence in self.value.split('.')]
-        sentences += [sentence for sentence in self.value.split('!')]
-        sentences += [sentence for sentence in self.value.split('?')]
+        """this function turns exclamations and questions marks into periods, which then splits it into an array and returns the length of the array"""
+        value = self.value
+        for punc in ['!','?']:
+            value = value.replace(punc, '.')
+        
+        sentences = [s for s in value.split('.') if s]
+        
         return len(sentences)
